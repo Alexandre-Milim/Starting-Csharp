@@ -23,6 +23,9 @@ class Program
 }
 
 /*a interface tambem não consegue criar objetos, então ela tem que ser herdada, poder usar metodos mas eles não teram conteudo ex e não precisa do override
+em c# não tem como uma classe herdar duas, alem da interfaces ex: class DemoClass : IPrimeiraInterface, ISegundaInterface só usar a virgula
+
+
 interface IExemplo
 {
     void Metodo1();
